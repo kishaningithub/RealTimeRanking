@@ -7,9 +7,14 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Firebase/Firebase.h>
 
-@interface FirstViewController : UIViewController
+@interface FirstViewController : UIViewController<UITableViewDataSource, UITableViewDelegate>
 
-
+@property (weak, nonatomic) IBOutlet UITableView *postsTableView;
+@property FIRDatabaseReference* postsRef;
+@property NSMutableArray* posts;
+@property FIRDatabaseReference* usersRef;
+@property NSMutableArray* users;
 @end
 

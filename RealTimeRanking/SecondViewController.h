@@ -7,9 +7,13 @@
 //
 
 #import <UIKit/UIKit.h>
+#import <Firebase/Firebase.h>
 
-@interface SecondViewController : UIViewController
+@interface SecondViewController : UIViewController <UITableViewDelegate, UITableViewDataSource>
 
+@property FIRDatabaseReference* usersRef;
+@property NSMutableArray* users;
+@property (weak, nonatomic) IBOutlet UITableView *usersTableView;
 
 @end
 

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28C82AF5274A0C74F28AF1BE /* libPods-RealTimeRanking.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E018C9E8298C1E4D7D24C751 /* libPods-RealTimeRanking.a */; };
 		9A4C49EA1CF209CD0053626E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C49E91CF209CD0053626E /* main.m */; };
 		9A4C49ED1CF209CD0053626E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C49EC1CF209CD0053626E /* AppDelegate.m */; };
 		9A4C49F01CF209CD0053626E /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A4C49EF1CF209CD0053626E /* FirstViewController.m */; };
@@ -14,9 +15,13 @@
 		9A4C49F61CF209CD0053626E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4C49F41CF209CD0053626E /* Main.storyboard */; };
 		9A4C49F81CF209CD0053626E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9A4C49F71CF209CD0053626E /* Assets.xcassets */; };
 		9A4C49FB1CF209CD0053626E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9A4C49F91CF209CD0053626E /* LaunchScreen.storyboard */; };
+		9A4C4A031CF20A750053626E /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 9A4C4A021CF20A750053626E /* GoogleService-Info.plist */; };
+		9A8A35971CF3E72800564B34 /* AddPostViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A8A35961CF3E72800564B34 /* AddPostViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2DFF5D9F63601941CA399CA8 /* Pods-RealTimeRanking.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeRanking.release.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeRanking/Pods-RealTimeRanking.release.xcconfig"; sourceTree = "<group>"; };
+		7F6B84F10D0180BA5BCE2CE6 /* Pods-RealTimeRanking.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RealTimeRanking.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RealTimeRanking/Pods-RealTimeRanking.debug.xcconfig"; sourceTree = "<group>"; };
 		9A4C49E51CF209CD0053626E /* RealTimeRanking.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RealTimeRanking.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A4C49E91CF209CD0053626E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9A4C49EB1CF209CD0053626E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -29,6 +34,10 @@
 		9A4C49F71CF209CD0053626E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9A4C49FA1CF209CD0053626E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9A4C49FC1CF209CD0053626E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A4C4A021CF20A750053626E /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		9A8A35951CF3E72800564B34 /* AddPostViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPostViewController.h; sourceTree = "<group>"; };
+		9A8A35961CF3E72800564B34 /* AddPostViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPostViewController.m; sourceTree = "<group>"; };
+		E018C9E8298C1E4D7D24C751 /* libPods-RealTimeRanking.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RealTimeRanking.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,17 +45,28 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				28C82AF5274A0C74F28AF1BE /* libPods-RealTimeRanking.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		98AF4714E189202A3AFC1B82 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E018C9E8298C1E4D7D24C751 /* libPods-RealTimeRanking.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		9A4C49DC1CF209CD0053626E = {
 			isa = PBXGroup;
 			children = (
 				9A4C49E71CF209CD0053626E /* RealTimeRanking */,
 				9A4C49E61CF209CD0053626E /* Products */,
+				E5FBCEC1284517E77A5D51D1 /* Pods */,
+				98AF4714E189202A3AFC1B82 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -65,12 +85,15 @@
 				9A4C49EC1CF209CD0053626E /* AppDelegate.m */,
 				9A4C49EE1CF209CD0053626E /* FirstViewController.h */,
 				9A4C49EF1CF209CD0053626E /* FirstViewController.m */,
+				9A8A35951CF3E72800564B34 /* AddPostViewController.h */,
+				9A8A35961CF3E72800564B34 /* AddPostViewController.m */,
 				9A4C49F11CF209CD0053626E /* SecondViewController.h */,
 				9A4C49F21CF209CD0053626E /* SecondViewController.m */,
 				9A4C49F41CF209CD0053626E /* Main.storyboard */,
 				9A4C49F71CF209CD0053626E /* Assets.xcassets */,
 				9A4C49F91CF209CD0053626E /* LaunchScreen.storyboard */,
 				9A4C49FC1CF209CD0053626E /* Info.plist */,
+				9A4C4A021CF20A750053626E /* GoogleService-Info.plist */,
 				9A4C49E81CF209CD0053626E /* Supporting Files */,
 			);
 			path = RealTimeRanking;
@@ -84,6 +107,15 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		E5FBCEC1284517E77A5D51D1 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7F6B84F10D0180BA5BCE2CE6 /* Pods-RealTimeRanking.debug.xcconfig */,
+				2DFF5D9F63601941CA399CA8 /* Pods-RealTimeRanking.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -91,9 +123,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9A4C49FF1CF209CD0053626E /* Build configuration list for PBXNativeTarget "RealTimeRanking" */;
 			buildPhases = (
+				FFD0D9A92113FF63D577C781 /* 📦 Check Pods Manifest.lock */,
 				9A4C49E11CF209CD0053626E /* Sources */,
 				9A4C49E21CF209CD0053626E /* Frameworks */,
 				9A4C49E31CF209CD0053626E /* Resources */,
+				169932D512DC751914FFFE66 /* 📦 Embed Pods Frameworks */,
+				9083947DE4062A61FF3D8131 /* 📦 Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -142,12 +177,61 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A4C49FB1CF209CD0053626E /* LaunchScreen.storyboard in Resources */,
+				9A4C4A031CF20A750053626E /* GoogleService-Info.plist in Resources */,
 				9A4C49F81CF209CD0053626E /* Assets.xcassets in Resources */,
 				9A4C49F61CF209CD0053626E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		169932D512DC751914FFFE66 /* 📦 Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealTimeRanking/Pods-RealTimeRanking-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9083947DE4062A61FF3D8131 /* 📦 Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RealTimeRanking/Pods-RealTimeRanking-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FFD0D9A92113FF63D577C781 /* 📦 Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "📦 Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		9A4C49E11CF209CD0053626E /* Sources */ = {
@@ -158,6 +242,7 @@
 				9A4C49ED1CF209CD0053626E /* AppDelegate.m in Sources */,
 				9A4C49F01CF209CD0053626E /* FirstViewController.m in Sources */,
 				9A4C49EA1CF209CD0053626E /* main.m in Sources */,
+				9A8A35971CF3E72800564B34 /* AddPostViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -269,9 +354,11 @@
 		};
 		9A4C4A001CF209CD0053626E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7F6B84F10D0180BA5BCE2CE6 /* Pods-RealTimeRanking.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RealTimeRanking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rtr.RealTimeRanking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -280,9 +367,11 @@
 		};
 		9A4C4A011CF209CD0053626E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2DFF5D9F63601941CA399CA8 /* Pods-RealTimeRanking.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = RealTimeRanking/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.rtr.RealTimeRanking;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -308,6 +397,7 @@
 				9A4C4A011CF209CD0053626E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
